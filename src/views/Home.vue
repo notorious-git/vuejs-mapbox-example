@@ -30,6 +30,9 @@ export default {
       center: [-74.50, 40], // starting position [lng, lat]
       zoom: 9 // starting zoom
     });
+    var marker = new mapboxgl.Marker()
+      .setLngLat([-74.50, 40])
+      .addTo(map);
   },
   methods: {},
   computed: {}
